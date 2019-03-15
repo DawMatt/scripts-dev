@@ -1,6 +1,6 @@
 # Setup Minikube and pre-requisites on Mac
-#
-# Assumes virtualisation engine is already installed
+
+echo WARNING: Assumes VirtualBox and Docker are installed as native applications first
 
 brew update
 

@@ -16,6 +16,8 @@ export ISTIO_ROOT=$DEV_HOME/Cloud
 export ISTIO_HOME=$ISTIO_ROOT/istio-1.0.5
 export PATH=$ISTIO_HOME/bin:$PATH
 
+source <(kubectl completion bash)
+source <(minikube completion bash)
 
 echo 'the following after minikube as started'
 echo 'eval $(minikube --profile istio docker-env)'
